@@ -12,7 +12,7 @@ The application runs on a local server, connecting to port 3000.
 
 The application has a JSON file on the backend that is used to store and retrieve notes using the fs npm module. 
 
-API routes were created to get, post and delete the notes from the JSON file. 
+Utilizes GET, POST, and DELETE routing methods to save, retrieve and delete user's notes.
 
 The GET route reads the JSON file and returns all saved notes as JSON. 
 
